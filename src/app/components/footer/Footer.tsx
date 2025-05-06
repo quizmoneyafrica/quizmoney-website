@@ -21,25 +21,34 @@ function Footer() {
                   priority
                   className="w-[25%] lg:w-[40%] col-span-2 lg:col-span-1"
                 />
-                  {data.footerMenus.map((item, index) => {
-                    return (
-                      <ul key={index} className="text-left w-full flex-1 space-y-2">
-                        <li className="text-neutral-400 mb-4 text-sm">{item.title}</li>
-                        {item.links.map((link, index) => {
-                          return (
-                            <li key={index}>
-                              <Link
-                                href={link.url}
-                                className={`text-neutral-50`}
-                              >
-                                {link.text}
-                              </Link>
-                            </li>
-                          );
-                        })}
-                      </ul>
-                    );
-                  })}
+                {data.footerMenus.map((item, index) => {
+                  return (
+                    <ul
+                      key={index}
+                      className="text-left w-full flex-1 space-y-2"
+                    >
+                      <li className="text-neutral-400 mb-4 text-sm">
+                        {item.title}
+                      </li>
+                      {item.links.map((link, index) => {
+                        return (
+                          <li key={index}>
+                            <Link
+                              href={
+                                link.text === "Help"
+                                  ? `mailto:${link.url}`
+                                  : link.url
+                              }
+                              className={`text-neutral-50`}
+                            >
+                              {link.text}
+                            </Link>
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  );
+                })}
               </div>
             </section>
             <div className="pb-2 pt-6 text-center text-[#ACACAC] border-t border-[#353535]">

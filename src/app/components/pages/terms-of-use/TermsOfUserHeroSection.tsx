@@ -1,7 +1,6 @@
 "use client";
 import PageLayout from "@/app/layout/pageLayout";
 import React from "react";
-import SubTitle from "../../Subtitle";
 import Link from "next/link";
 
 function TermsOfUserHeroSection() {

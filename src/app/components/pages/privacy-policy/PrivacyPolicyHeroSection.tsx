@@ -1,7 +1,6 @@
 "use client";
 import PageLayout from "@/app/layout/pageLayout";
 import React from "react";
-import SubTitle from "../../Subtitle";
 import Link from "next/link";
 
 function PrivacyPolicyHeroSection() {
@@ -13,7 +12,7 @@ function PrivacyPolicyHeroSection() {
             Privacy policy
           </h1>
           <p className="drop-shadow-md text-sm sm:text-md md:text-lg mx-auto w-[90%] sm:w-[80%] md:max-w-[60%] lg:max-w-[40%] px-4">
-            Last Updated 30 April, 2024
+            Last Updated 30 April, 2025
           </p>
         </div>
       </HeroContainer>

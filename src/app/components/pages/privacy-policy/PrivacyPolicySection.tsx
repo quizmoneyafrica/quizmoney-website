@@ -34,8 +34,10 @@ function PrivacyPolicySection() {
               <li key={section.id}>
                 <button
                   onClick={() => scrollToSection(section.id)}
-                  className={`text-left w-full py-2 px-4 rounded hover:bg-gray-100 ${
-                    activeSection === section.id ? "font-bold" : ""
+                  className={`text-left w-full py-2 uppercase px-4 rounded hover:bg-gray-100 ${
+                    activeSection === section.id
+                      ? "font-bold text-[#17478B]"
+                      : " font-bold text-black"
                   }`}
                 >
                   {section.title}

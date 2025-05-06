@@ -7,7 +7,6 @@ export default function ContactUsSection() {
     <PageLayout>
       <div className=" mx-auto px-4 py-16 md:py-24">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {/* Left side - Contact Information */}
           <div className="space-y-8">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -19,7 +18,6 @@ export default function ContactUsSection() {
               </p>
             </div>
 
-            {/* Location */}
             <div className="flex items-start space-x-4">
               <div className="w-12 h-12 bg-[#E4F1FA] rounded-lg flex items-center justify-center">
                 <CustomImage alt="" className=" size-6" src={"/location.svg"} />
@@ -32,7 +30,6 @@ export default function ContactUsSection() {
               </div>
             </div>
 
-            {/* Phone Numbers */}
             <div className="flex items-start space-x-4">
               <div className="w-12 h-12 bg-[#E4F1FA] rounded-lg flex items-center justify-center">
                 <CustomImage
@@ -52,7 +49,6 @@ export default function ContactUsSection() {
               </div>
             </div>
 
-            {/* Email Address */}
             <div className="flex items-start space-x-4">
               <div className="w-12 h-12 bg-[#E4F1FA] rounded-lg flex items-center justify-center">
                 <CustomImage alt="" className=" size-6" src={"/sms.svg"} />
@@ -66,7 +62,6 @@ export default function ContactUsSection() {
             </div>
           </div>
 
-          {/* Right side - Contact Form */}
           <div className="bg-[#E4F1FA] px-8 py-10 rounded-2xl">
             <h2 className="text-2xl font-bold mb-6">Send Your Message</h2>
             <form className="space-y-6">

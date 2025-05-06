@@ -1,5 +1,5 @@
 import React from "react";
-import CustomImage from "./CustomImage";
+import CustomImage from "../../common/CustomImage";
 
 interface SearchBarProps {
   value: string;

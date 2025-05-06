@@ -4,7 +4,7 @@ import Image from "next/image";
 import { CtaImage } from "../../../../public/page";
 import useAppLink from "@/app/hooks/AppDownload";
 import Link from "next/link";
-import CustomImage from "../pages/faq/CustomImage";
+import CustomImage from "./CustomImage";
 
 function CtaSection() {
   const appLink = useAppLink();

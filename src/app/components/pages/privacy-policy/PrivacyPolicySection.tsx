@@ -52,7 +52,9 @@ function PrivacyPolicySection() {
       <div className="flex-1">
         <div className="space-y-12">
           <section id="introduction">
-            <h2 className="text-2xl font-semibold mb-4">1. Introduction</h2>
+            <h2 className="text-2xl font-bold text-primary-900 mb-4">
+              1. Introduction
+            </h2>
             <p>
               Quiz Money (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or
               &ldquo;us&rdquo;) is committed to protecting your privacy. This

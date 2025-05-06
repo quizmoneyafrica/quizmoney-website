@@ -8,7 +8,7 @@ export default function AgreementToLegalTerms() {
         <h1 className="text-3xl md:text-4xl font-bold text-black mb-8">
           AGREEMENT TO OUR LEGAL TERMS
         </h1>
-        <div className="space-y-6 text-black text-lg leading-[60px]">
+        <div className="space-y-6 text-black text-sm md:text-lg leading-8 md:leading-[60px]">
           AGREEMENT TO OUR LEGAL TERMS We are QM Technologies, doing business as
           QuizMoney ('Company', 'we', 'us', or 'our'), a company registered in
           Nigeria.We operate the website https://quizmoney.ng (the 'Site'), the

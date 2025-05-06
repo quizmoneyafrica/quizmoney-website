@@ -1,15 +1,14 @@
 import PageLayout from "@/app/layout/pageLayout";
 import React from "react";
 import Image from "next/image";
-import { CtaImage } from "../../../../../public/page";
+import { CtaImage } from "../../../../public/page";
 import useAppLink from "@/app/hooks/AppDownload";
 import Link from "next/link";
-import CustomImage from "./CustomImage";
+import CustomImage from "../pages/faq/CustomImage";
 
-function Cta() {
+function CtaSection() {
   const appLink = useAppLink();
   return (
-    // <section className="bg-primary-900 mx-auto py-16 lg:py-24 mb-16 lg:mb-20 hero">
     <PageLayout>
       <div className="grid grid-cols-1 pt-8 md:pt-5 lg:grid-cols-2 gap-8 lg:gap-12 my-16 px-4 md:px-8 rounded-3xl items-center bg-primary-900 hero">
         <div className="text-white space-y-8 text-center lg:text-left">
@@ -53,8 +52,7 @@ function Cta() {
         </div>
       </div>
     </PageLayout>
-    // </section>
   );
 }
 
-export default Cta;
+export default CtaSection;

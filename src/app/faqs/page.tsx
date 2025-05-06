@@ -1,14 +1,14 @@
 import React from "react";
 import FaqHeroSection from "../components/pages/faq/FaqHeroSection";
 import FaqListing from "../components/pages/faq/FaqListing";
-import Cta from "../components/pages/faq/Cta";
+import CtaSection from "../components/common/CtaSection";
 
 function Page() {
   return (
     <div>
       <FaqHeroSection />
       <FaqListing />
-      <Cta />
+      <CtaSection />
     </div>
   );
 }

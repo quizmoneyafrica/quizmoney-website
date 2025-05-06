@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import ContactHeroSection from "../components/pages/contact/ContactHeroSection";
+import ContactUsSection from "../components/pages/contact/ContactUsSection";
 
-function Page() {
+export default function Contact() {
   return (
-    <div>
-      
-    </div>
-  )
+    <main>
+      <ContactHeroSection />
+      <ContactUsSection />
+    </main>
+  );
 }
-
-export default Page

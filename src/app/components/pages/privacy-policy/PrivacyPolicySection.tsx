@@ -64,7 +64,7 @@ function PrivacyPolicySection() {
           </section>
 
           <section id="information-collect">
-            <h2 className="text-2xl font-semibold mb-4">
+            <h2 className="text-2xl font-bold text-primary-900 mb-4">
               2. Information We Collect
             </h2>
             <ul className="list-disc ml-5">
@@ -88,7 +88,7 @@ function PrivacyPolicySection() {
           </section>
 
           <section id="information-use">
-            <h2 className="text-2xl font-semibold mb-4">
+            <h2 className="text-2xl font-bold text-primary-900 mb-4">
               3. How We Use Your Information
             </h2>
             <ul className="list-disc ml-5">
@@ -101,7 +101,7 @@ function PrivacyPolicySection() {
           </section>
 
           <section id="sharing-disclosure">
-            <h2 className="text-2xl font-semibold mb-4">
+            <h2 className="text-2xl font-bold text-primary-900 mb-4">
               4. Sharing and Disclosure
             </h2>
             <p>
@@ -112,14 +112,18 @@ function PrivacyPolicySection() {
           </section>
 
           <section id="data-security">
-            <h2 className="text-2xl font-semibold mb-4">5. Data Security</h2>
+            <h2 className="text-2xl font-bold text-primary-900  mb-4">
+              5. Data Security
+            </h2>
             <p>
               We use industry-standard measures to secure your personal data.
             </p>
           </section>
 
           <section id="data-retention">
-            <h2 className="text-2xl font-semibold mb-4">6. Data Retention</h2>
+            <h2 className="text-2xl font-bold text-primary-900 mb-4">
+              6. Data Retention
+            </h2>
             <p>
               Your data is retained only as long as necessary to provide
               services and meet legal obligations.
@@ -127,7 +131,7 @@ function PrivacyPolicySection() {
           </section>
 
           <section id="children-privacy">
-            <h2 className="text-2xl font-semibold mb-4">
+            <h2 className="text-2xl font-bold text-primary-900 mb-4">
               7. Children&apos;s Privacy
             </h2>
             <p>
@@ -137,7 +141,9 @@ function PrivacyPolicySection() {
           </section>
 
           <section id="user-rights">
-            <h2 className="text-2xl font-semibold mb-4">8. User Rights</h2>
+            <h2 className="text-2xl font-bold text-primary-900 mb-4">
+              8. User Rights
+            </h2>
             <p>
               You may request access, correction, or deletion of your personal
               data by contacting our support.
@@ -145,7 +151,7 @@ function PrivacyPolicySection() {
           </section>
 
           <section id="policy-changes">
-            <h2 className="text-2xl font-semibold mb-4">
+            <h2 className="text-2xl font-bold text-primary-900 mb-4">
               9. Changes to this Policy
             </h2>
             <p>
@@ -155,7 +161,9 @@ function PrivacyPolicySection() {
           </section>
 
           <section id="contact">
-            <h2 className="text-2xl font-semibold mb-4">10. Contact Us</h2>
+            <h2 className="text-2xl font-bold text-primary-900 mb-4">
+              10. Contact Us
+            </h2>
             <p>
               For privacy inquiries, contact us at:
               <br />

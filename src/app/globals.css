@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--background: #f9f9f9;
+	--foreground: #3b3b3b;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--background: #f9f9f9;
+		--foreground: #3b3b3b;
+	}
+}
+
+body {
+	color: var(--foreground);
+	background: var(--background);
+	font-family: "Space Grotesk", sans-serif;
+	font-optical-sizing: auto;
+	font-size: 16px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "DM Sans", sans-serif;
+	font-optical-sizing: auto;
+}
+
+h1{
+	font-weight: 700;
+	font-size: 24px;
+}
+
+.hero{
+	background-image: url("/assets/hero-bg.png");
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-clip: border-box;
+}
+.inspiration{
+	background-image: url("/assets/map.png");
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-clip: border-box;
+}
+
+
+@media screen and (min-width: 605px) {
+	
+}

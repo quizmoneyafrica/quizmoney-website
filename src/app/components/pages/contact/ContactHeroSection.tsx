@@ -14,7 +14,7 @@ function ContactHeroSection() {
             Contact Us
           </h1>
           <p className="drop-shadow-md text-sm sm:text-md md:text-lg mx-auto w-[90%] sm:w-[80%] md:max-w-[60%] lg:max-w-[40%] px-4">
-            Stay in touch with out Customer services <br />
+            Stay in touch with our Customer services <br />
             representative
           </p>
         </div>

@@ -3,16 +3,16 @@ import PageLayout from "@/app/layout/pageLayout";
 import React from "react";
 import Link from "next/link";
 
-function TermsOfUserHeroSection() {
+function PrivacyPolicyHeroSection() {
   return (
     <PageLayout>
       <HeroContainer>
         <div className=" w-full pb-8 space-y-5">
           <h1 className="drop-shadow-md text-xl sm:text-2xl md:text-3xl font-bold px-4">
-            Terms of Use
+            Privacy policy
           </h1>
           <p className="drop-shadow-md text-sm sm:text-md md:text-lg mx-auto w-[90%] sm:w-[80%] md:max-w-[60%] lg:max-w-[40%] px-4">
-            Last Updated 30 April, 2024 <br />
+            Last Updated 30 April, 2025
           </p>
         </div>
       </HeroContainer>
@@ -20,7 +20,7 @@ function TermsOfUserHeroSection() {
   );
 }
 
-export default TermsOfUserHeroSection;
+export default PrivacyPolicyHeroSection;
 
 type Props = {
   children: React.ReactNode;

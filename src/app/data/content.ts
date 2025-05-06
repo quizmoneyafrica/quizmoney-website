@@ -73,7 +73,7 @@ export const data = {
 					text: "Contact Us",
 				},
 				{
-					url: "/help",
+					url: "hi@quizmoney.ng",
 					text: "Help",
 				},
 			],

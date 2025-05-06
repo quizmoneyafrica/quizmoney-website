@@ -50,12 +50,6 @@ function PrivacyPolicySection() {
 
       {/* Main Content */}
       <div className="flex-1">
-        <h1 className="text-4xl font-bold mb-8">Privacy Policy</h1>
-
-        <p className="mb-4">
-          Effective Date: <strong>May 6, 2025</strong>
-        </p>
-
         <div className="space-y-12">
           <section id="introduction">
             <h2 className="text-2xl font-semibold mb-4">1. Introduction</h2>

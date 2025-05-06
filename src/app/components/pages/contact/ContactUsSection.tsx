@@ -7,7 +7,11 @@ export default function ContactUsSection() {
     <PageLayout>
       <div className=" mx-auto px-4 py-16 md:py-24">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="space-y-8">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            className="space-y-8"
+          >
             <div>
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
                 Get in Touch with us
@@ -62,7 +66,11 @@ export default function ContactUsSection() {
             </div>
           </div>
 
-          <div className="bg-[#E4F1FA] px-8 py-10 rounded-2xl">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            className="bg-[#E4F1FA] px-8 py-10 rounded-2xl"
+          >
             <h2 className="text-2xl font-bold mb-6">Send Your Message</h2>
             <form className="space-y-6">
               <div>

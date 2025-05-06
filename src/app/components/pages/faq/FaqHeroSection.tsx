@@ -3,14 +3,15 @@ import PageLayout from "@/app/layout/pageLayout";
 import React, { useState } from "react";
 import SearchBar from "./SearchBar";
 import SubTitle from "../../Subtitle";
-import FaqsComponent from "../../faqsComponent";
 import { data } from "@/app/data/content";
 import Link from "next/link";
 
 function FaqHeroSection() {
   const [searchValue, setSearchValue] = useState("");
   const [filteredFaqs, setFilteredFaqs] = useState(data.faq);
-
+  console.log("====================================");
+  console.log(filteredFaqs);
+  console.log("====================================");
   const handleSearch = () => {
     if (!searchValue.trim()) {
       setFilteredFaqs(data.faq);

@@ -1,9 +1,7 @@
 "use client";
 import PageLayout from "@/app/layout/pageLayout";
-import React, { useState } from "react";
+import React from "react";
 import SubTitle from "../../Subtitle";
-import FaqsComponent from "../../faqsComponent";
-import { data } from "@/app/data/content";
 import Link from "next/link";
 
 function ContactHeroSection() {

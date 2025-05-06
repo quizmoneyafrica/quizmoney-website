@@ -4,10 +4,8 @@ import React from "react";
 import SubTitle from "../../Subtitle";
 import Image from "next/image";
 import { HeroPhoneMobile } from "../../../../../public/page";
-import useAppLink from "@/app/hooks/AppDownload";
 
 function HowItWorksHeroSection() {
-  const appLink = useAppLink();
   return (
     <PageLayout>
       <HeroContainer>

@@ -27,17 +27,17 @@ function HeroSection() {
           className="grid grid-cols-1 sm:grid-cols-2 gap-4 mx-auto md:max-w-[60%] lg:max-w-[40%]"
         >
           <AppStoreBtn
-            icon="google-play"
-            store="Google Play"
-            title="GET IT ON"
+            icon="controller"
+            store="Login/Signup"
+            title="GET STARTED"
             url={appLink}
           />
-          <AppStoreBtn
+          {/* <AppStoreBtn
             icon="apple"
             store="App Store"
             title="Download on the"
             url={appLink}
-          />
+          /> */}
         </div>
 
         <div className="pt-4 flex items-center justify-center mx-auto md:max-w-[60%] lg:max-w-[40%]">

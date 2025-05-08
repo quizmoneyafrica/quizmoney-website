@@ -5,6 +5,7 @@ import "lenis/dist/lenis.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "aos/dist/aos.css";
 import AppConfig from "./appConfig";
+import Script from "next/script";
 
 const spacegrotesk = Space_Grotesk({
 	variable: "--spacegrotesk",
@@ -69,6 +70,19 @@ export default function RootLayout({
 					name="viewport"
 					content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
 				/>
+
+				<Script
+					src="https://www.googletagmanager.com/gtag/js?id=G-KPV5DCR6YM"
+					strategy="afterInteractive"
+				/>
+				<Script id="gtag-init" strategy="afterInteractive">
+					{`
+						window.dataLayer = window.dataLayer || [];
+						function gtag(){dataLayer.push(arguments);}
+						gtag('js', new Date());
+						gtag('config', 'G-KPV5DCR6YM');
+					`}
+				</Script>
 			</head>
 			<body
 				className={`${spacegrotesk.variable} ${dmsans.variable} antialiased`}>

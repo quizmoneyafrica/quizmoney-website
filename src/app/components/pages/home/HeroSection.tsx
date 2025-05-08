@@ -24,7 +24,7 @@ function HeroSection() {
         <div
           data-aos="fade-up"
           data-aos-duration="1000"
-          className="grid grid-cols-1 sm:grid-cols-2 gap-4 mx-auto md:max-w-[60%] lg:max-w-[40%]"
+          className="grid grid-cols-1 gap-4 mx-auto md:max-w-[60%] lg:max-w-[40%]"
         >
           <AppStoreBtn
             icon="controller"
